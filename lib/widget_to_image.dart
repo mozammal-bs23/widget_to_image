@@ -26,7 +26,6 @@ class WidgetToImage {
 		RenderView renderView = RenderView(
 			child: RenderPositionedBox(alignment: alignment, child: repaintBoundary),
 			configuration: ViewConfiguration(
-				size: size,
 				devicePixelRatio: devicePixelRatio,
 			),
 			view: WidgetsBinding.instance!.platformDispatcher.views.first,
